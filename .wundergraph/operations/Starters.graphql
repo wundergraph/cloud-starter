@@ -1,8 +1,0 @@
-query Starters {
-    pokemon_pokemons(limit: 12) {
-        results {
-            id
-            name
-        }
-    }
-}

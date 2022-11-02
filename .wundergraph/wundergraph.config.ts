@@ -9,15 +9,15 @@ import {
 import server from './wundergraph.server';
 import operations from './wundergraph.operations';
 
-const pokemonAPI = introspect.graphql({
-    apiNamespace: 'pokemon',
-    url: 'https://graphql-pokeapi.graphcdn.app/',
+const weather = introspect.graphql({
+    apiNamespace: 'weather',
+    url: 'https://graphql-weather-api.herokuapp.com/',
 });
 
 const myApplication = new Application({
     name: 'app',
     apis: [
-        pokemonAPI,
+        weather,
     ],
 });
 

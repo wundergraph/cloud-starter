@@ -1,6 +1,6 @@
 # Simple starter for WunderGraph Cloud
 
-A simple starter that consumes the [Pokémon GraphQL API](https://graphql-pokeapi.vercel.app).
+A simple starter that consumes the [GraphQL Weather API](https://graphql-weather-api.herokuapp.com/).
 
 ### Getting started locally
 
@@ -8,10 +8,10 @@ A simple starter that consumes the [Pokémon GraphQL API](https://graphql-pokeap
 npm install && npm start
 ```
 
-Get first 3 starter Pokémon and their evolutions
+Get the weather for Berlin.
 
 ```shell
-curl -X GET http://localhost:9991/app/main/operations/Starters
+curl -X GET http://localhost:9991/app/main/operations/Weather?city=Berlin
 ```
 
 ---
@@ -23,6 +23,23 @@ curl -X GET http://localhost:9991/app/main/operations/Starters
 3. Create a new project
 4. Import the forked repo
 5. Deploy the project
+
+Try it out (replace `YOUR_PROJECT_ID` with your project id):
+
+```shell
+curl -X GET https://{YOUR_PROJECT_NAME}.wundergraph.dev/app/main/operations/Weather?city=Berlin
+```
+
+### Make changes
+
+1. Make changes to the `main` branch, e.g. change the query in `.wundergraph/operations/Weather.graphql`
+2. Commit and push the changes
+
+See your changes live in less than 20 seconds.
+
+```shell
+curl -X GET https://{YOUR_PROJECT_NAME}.wundergraph.dev/app/main/operations/Weather?city=Berlin
+```
 
 ---
 ### Learn More
