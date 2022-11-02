@@ -1,9 +1,10 @@
 query ($city: String!) {
     weather_getCityByName(name: $city config: {units: metric}) {
-        coordinates: coord {
-            lat
-            lon
-        }
+# remove the comments to add the coordinates to the query
+#        coordinates: coord {
+#            lat
+#            lon
+#        }
         country
         weather {
             temperature {
