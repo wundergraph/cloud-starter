@@ -11,7 +11,7 @@ npm install && npm start
 Get the weather for Berlin.
 
 ```shell
-curl -X GET http://localhost:9991/app/main/operations/Weather?city=Berlin
+curl 'http://localhost:9991/app/main/operations/Weather?city=Berlin'
 ```
 
 ---
@@ -27,7 +27,7 @@ curl -X GET http://localhost:9991/app/main/operations/Weather?city=Berlin
 Try it out (replace `YOUR_PROJECT_ID` with your project id):
 
 ```shell
-curl -X GET https://{YOUR_PROJECT_NAME}.wundergraph.dev/app/main/operations/Weather?city=Berlin
+curl 'https://{YOUR_PROJECT_NAME}.wundergraph.dev/operations/Weather?city=Berlin'
 ```
 
 ### Make changes
@@ -38,7 +38,7 @@ curl -X GET https://{YOUR_PROJECT_NAME}.wundergraph.dev/app/main/operations/Weat
 See your changes live in less than 20 seconds.
 
 ```shell
-curl -X GET https://{YOUR_PROJECT_NAME}.wundergraph.dev/app/main/operations/Weather?city=Berlin
+curl 'https://{YOUR_PROJECT_NAME}.wundergraph.dev/operations/Weather?city=Berlin'
 ```
 
 ---
