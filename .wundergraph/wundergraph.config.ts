@@ -1,5 +1,4 @@
 import {
-  Application,
   configureWunderGraphApplication,
   cors,
   EnvironmentVariable,
@@ -14,14 +13,9 @@ const weather = introspect.graphql({
   url: "https://graphql-weather-api.herokuapp.com/",
 });
 
-const myApplication = new Application({
-  name: "app",
-  apis: [weather],
-});
-
 // configureWunderGraph emits the configuration
 configureWunderGraphApplication({
-  application: myApplication,
+  apis: [weather],
   server,
   operations,
   codeGenerators: [
