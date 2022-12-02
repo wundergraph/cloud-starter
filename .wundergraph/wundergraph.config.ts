@@ -8,14 +8,14 @@ import {
 import server from "./wundergraph.server";
 import operations from "./wundergraph.operations";
 
-const weather = introspect.graphql({
-  apiNamespace: "weather",
-  url: "https://graphql-weather-api.herokuapp.com/",
+const spacex = introspect.graphql({
+  apiNamespace: "spacex",
+  url: "https://spacex-api.fly.dev/graphql",
 });
 
 // configureWunderGraph emits the configuration
 configureWunderGraphApplication({
-  apis: [weather],
+  apis: [spacex],
   server,
   operations,
   codeGenerators: [

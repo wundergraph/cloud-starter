@@ -5,9 +5,9 @@ import type { InternalClient } from "./generated/wundergraph.internal.client";
 export default configureWunderGraphServer<HooksConfig, InternalClient>(() => ({
   hooks: {
     queries: {
-      Weather: {
+      Dragons: {
         postResolve: async (hook) => {
-          hook.log.info("postResolve hook for Weather");
+          hook.log.info("postResolve hook for Dragons");
         },
       },
     },
