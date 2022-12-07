@@ -22,8 +22,6 @@ configureWunderGraphApplication({
     {
       templates: [
         ...templates.typescript.all,
-        templates.typescript.operations,
-        templates.typescript.linkBuilder,
       ],
     },
   ],
