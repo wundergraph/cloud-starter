@@ -1,5 +1,7 @@
 # Simple starter for WunderGraph Cloud
 
+1
+
 A simple starter that consumes the [GraphQL SpaceX API](https://spacex-api.fly.dev/graphql/).
 
 ### Getting started locally
