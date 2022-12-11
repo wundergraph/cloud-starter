@@ -10,7 +10,7 @@ import operations from "./wundergraph.operations";
 
 const spacex = introspect.graphql({
   apiNamespace: "spacex",
-  url: new EnvironmentVariable('SPACEX_API_URL'),
+  url: 'https://spacex-api.fly.dev/graphql',
 });
 
 // configureWunderGraph emits the configuration
