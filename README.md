@@ -8,7 +8,7 @@ A simple starter that consumes the [GraphQL SpaceX API](https://spacex-api.fly.d
 npm install && npm start
 ```
 
-Get SpaceX Dragons
+Fetch all SpaceX Dragons from your WunderGraph.
 
 ```shell
 curl -X GET http://localhost:9991/operations/Dragons
