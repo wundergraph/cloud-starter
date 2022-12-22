@@ -4,13 +4,13 @@
   "description": "",
   "scripts": {
     "start": "wunderctl up --debug",
-    "generate": "wunderctl generate up --debug",
+    "build": "wunderctl generate --debug --pretty-logging=true",
     "check": "tsc --noEmit"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wundergraph/sdk": "^0.124.0"
+    "@wundergraph/sdk": "^0.128.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.37",
