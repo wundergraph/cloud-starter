@@ -1,6 +1,6 @@
-# Simple starter for WunderGraph Cloud
+# WunderGraph Cloud Starter
 
-A simple starter that consumes the [GraphQL SpaceX API](https://spacex-api.fly.dev/graphql/).
+A simple starter that consumes the [GraphQL SpaceX API](https://spacex-api.fly.dev/graphql/)
 
 ### Getting started locally
 
@@ -8,13 +8,11 @@ A simple starter that consumes the [GraphQL SpaceX API](https://spacex-api.fly.d
 npm install && npm start
 ```
 
-Get SpaceX Dragons
+Fetch all SpaceX Dragons from your WunderGraph.
 
 ```shell
 curl -X GET http://localhost:9991/operations/Dragons
 ```
-
----
 
 ### Deploy to WunderGraph Cloud
 
@@ -24,7 +22,7 @@ curl -X GET http://localhost:9991/operations/Dragons
 4. Import the forked repo
 5. Deploy the project
 
-Try it out (replace `YOUR_PROJECT_ID` with your project id):
+Try it out (replace `YOUR_PROJECT_NAME` with your project name):
 
 ```shell
 curl -X GET https://{YOUR_PROJECT_NAME}.wundergraph.dev/operations/Dragons
@@ -35,11 +33,7 @@ curl -X GET https://{YOUR_PROJECT_NAME}.wundergraph.dev/operations/Dragons
 1. Make changes to the `main` branch, e.g. change the query in `.wundergraph/operations/Dragons.graphql`
 2. Commit and push the changes
 
-See your changes live in less than 20 seconds.
-
-```shell
-curl -X GET https://{YOUR_PROJECT_NAME}.wundergraph.dev/operations/Dragons
-```
+See your changes live in less than a minute.
 
 ---
 
