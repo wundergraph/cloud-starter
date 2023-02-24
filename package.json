@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "start": "wunderctl up --debug",
-    "build": "wunderctl generate --debug --pretty-logging=true",
-    "check": "tsc --noEmit"
+    "build": "wunderctl generate --debug",
+    "check": "tsc --noEmit 123"
   },
   "author": "",
   "license": "ISC",
