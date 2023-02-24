@@ -5,7 +5,7 @@
   "scripts": {
     "start": "wunderctl up --debug",
     "build": "wunderctl generate --debug",
-    "check": "tsc --noEmit 123"
+    "check": "tsc --noEmit"
   },
   "author": "",
   "license": "ISC",
