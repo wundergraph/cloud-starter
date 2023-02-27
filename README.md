@@ -14,6 +14,12 @@ Fetch all SpaceX Dragons from your WunderGraph.
 curl -X GET http://localhost:9991/operations/Dragons
 ```
 
+### Run tests
+
+```shell
+npm test
+```
+
 ### Deploy to WunderGraph Cloud
 
 1. Fork this repo
