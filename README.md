@@ -5,7 +5,7 @@ A simple starter that consumes the [GraphQL SpaceX API](https://spacex-api.fly.d
 ### Getting started locally
 
 ```shell
-npm install && npm start
+npm i && npm start
 ```
 
 Fetch all SpaceX Dragons from your WunderGraph.
