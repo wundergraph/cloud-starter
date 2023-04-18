@@ -1,5 +1,7 @@
 # WunderGraph Cloud Starter
 
+[![CI](https://github.com/wundergraph/cloud-starter/actions/workflows/ci.yaml/badge.svg)](https://github.com/wundergraph/cloud-starter/actions/workflows/ci.yaml)
+
 A simple starter that consumes the [GraphQL SpaceX API](https://spacex-api.fly.dev/graphql/)
 
 ### Getting started locally
