@@ -3,7 +3,6 @@ import {
   cors,
   EnvironmentVariable,
   introspect,
-  templates,
 } from "@wundergraph/sdk";
 import server from "./wundergraph.server";
 import operations from "./wundergraph.operations";
@@ -18,13 +17,6 @@ configureWunderGraphApplication({
   apis: [spacex],
   server,
   operations,
-  codeGenerators: [
-    {
-      templates: [
-        ...templates.typescript.all,
-      ],
-    },
-  ],
   cors: {
     ...cors.allowAll,
     allowedOrigins:
@@ -37,8 +29,5 @@ configureWunderGraphApplication({
             "http://localhost:3000",
             new EnvironmentVariable("WG_ALLOWED_ORIGIN"),
           ],
-  },
-  dotGraphQLConfig: {
-    hasDotWunderGraphDirectory: false,
-  },
+  }
 });
